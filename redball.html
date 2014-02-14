@@ -1,0 +1,91 @@
+<html>
+<head>
+<title>Red Ball Part 1</title>
+<script src="http://lrn.icstars.org/redball.js"></script>
+<script>
+function moveleft()
+{
+redball.left=redball.left - 5;
+}
+function sayHello()
+{
+alert("hello Andrew Wilson");
+}
+function moveright()
+{
+redball.left=redball.left + 5;
+}
+
+function movetop()
+{
+redball.top=redball.top - 5;
+}
+function movedown()
+{
+redball.top=redball.top + 5;
+}
+
+
+function movesquare()
+{
+redball.left=redball.left + 5;
+redball.left=redball.left + 5;
+redball.left=redball.left + 5;
+redball.left=redball.left + 5;
+redball.left=redball.left + 5;
+redball.left=redball.left + 5;
+redball.left=redball.left + 5;
+redball.left=redball.left + 5;
+redball.left=redball.left + 5;
+redball.left=redball.left + 5;
+
+redball.top=redball.top - 5;
+redball.top=redball.top - 5;
+redball.top=redball.top - 5;
+redball.top=redball.top - 5;
+redball.top=redball.top - 5;
+redball.top=redball.top - 5;
+redball.top=redball.top - 5;
+redball.top=redball.top - 5;
+redball.top=redball.top - 5;
+redball.top=redball.top - 5;
+
+
+redball.left=redball.left - 5;
+redball.left=redball.left - 5;
+redball.left=redball.left - 5;
+redball.left=redball.left - 5;
+redball.left=redball.left - 5;
+redball.left=redball.left - 5;
+redball.left=redball.left - 5;
+redball.left=redball.left - 5;
+redball.left=redball.left - 5;
+redball.left=redball.left - 5;
+
+redball.top=redball.top + 5;
+redball.top=redball.top + 5;
+redball.top=redball.top + 5;
+redball.top=redball.top + 5;
+redball.top=redball.top + 5;
+redball.top=redball.top + 5;
+redball.top=redball.top + 5;
+redball.top=redball.top + 5;
+redball.top=redball.top + 5;
+redball.top=redball.top + 5;
+
+}
+
+</script>
+
+</head>
+
+<body>
+<button onclick="sayHello();">hello world</button>
+<button onclick="moveleft();">moveleft</button>
+<button onclick="moveright();">moveright</button>
+<button onclick="movesquare();">movesquare</button>
+<button onclick="movetop();">movetop</button>
+<button onclick="movedown();">movedown</button>
+<img src="redball.jpg" id="redball"/>
+</body>
+</html>
